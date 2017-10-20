@@ -1,0 +1,56 @@
+
+h1, h2, h3, p {
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+header {
+	background: #333333;
+	margin: 0;
+	padding: 10px;	
+	color: #fff;
+	text-align: center;
+}
+
+body {
+	background: #efeee7;
+	color: #333333;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h1 {
+	font-color: #eee;
+	font-size: 28px;
+	margin: 10px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#main-bio, #bio-image, #contact-info {
+	float: left;
+}
+
+#bio-image {
+	width: 200px;
+	margin-right: 10px;
+}
+
+#main-bio {
+	width: 70%;
+}
+
+#contact-info {
+	width: 30%;
+	line-height: 150%;
+}
+
+a {
+	color: #d21034;
+}
