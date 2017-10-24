@@ -1,5 +1,5 @@
 
-h1, h2, h3, p {
+h1, h2, h3, h6, p, li {
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 
@@ -27,7 +27,7 @@ body {
 
 a {
 	color: grey;
-	font-size: 21px;
+	font-size: 18px;
 }
 
 hr {
@@ -43,6 +43,7 @@ header {
     background: white;
     top: 0;
     margin: 0 auto;
+    border-bottom: solid grey;
 }
 
 ul {
@@ -69,7 +70,7 @@ ul {
 
 #menuOptions {
 	position: relative;
-	width: 320px;
+	width: 270px;
 	height: 75px;
 	float: right;
 	text-align: center;
@@ -77,9 +78,17 @@ ul {
 }
 
 #menuOptions a {
-	text-align: right;
-	width: 33.3%;
+	width: 30%;
 	float: left;
+}
+
+#menuOptions h6 {
+	color: lightgrey;
+	float: left;
+	margin: 0 auto;
+}
+
+#menuOptions a {
 	text-decoration: none;
 }
 
@@ -94,6 +103,7 @@ ul {
 	float: left;
 	margin-right: 40px;
 	background: white;
+	margin-bottom: 100px;
 }
 
 #about hr {
