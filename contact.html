@@ -4,7 +4,7 @@
 
 		<meta charset="utf-8">
 
-		<title>Dillon Faulkner | Home | Always Be Learning</title>
+		<title>Contact | Dillon Faulkner | Always Be Learning</title>
 		
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
@@ -26,9 +26,9 @@
 
 		<div id="menuOptions">
 
-			<p><a href="#">About</a></p>
+			<p><a href="index.html">About</a></p>
 				<h6>|</h6>		
-			<p><a href="#">Portfolio</a></p>
+			<p><a href="portfolio.html">Portfolio</a></p>
 				<h6>|</h6>		
 			<p><a href="#">Contact</a></p>
     		
@@ -40,13 +40,26 @@
 	
 	<div id="pageBody">
 
-	<section id="about">
+	<section id="contact">
 
 			<h2>Contact</h2>
 
 			<hr>
 
-			<p>FORM GOES HERE</p>
+			<form action="action_page.php">
+			
+			<p>Name</p>
+			<input type="text" name="Name" placeholder="John Smith" required="true">
+			
+			<p>Email</p>
+			<input type="text" name="Email" placeholder="example@domain.com" required="true">
+			
+			<p>Message</p>
+			<textarea name="Message"></textarea>
+
+			<input id="submit" type="submit" value="Submit">
+			
+			</form>
 
 	</section>
 

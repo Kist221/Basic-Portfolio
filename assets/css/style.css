@@ -1,5 +1,5 @@
 
-h1, h2, h3, h6, p, li {
+h1, h2, h3, h6, p, li, form, label {
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 
@@ -50,6 +50,12 @@ ul {
 	margin-left: 26px;
 }
 
+input {
+    width: 575px;
+    height: 24px;
+    margin-top: 10px;
+}
+
 .menuBar {
     height: 75px;
     width: 960px;
@@ -98,7 +104,7 @@ ul {
 	margin-top: 115px;
 }
 
-#about {
+#about, #contact {
 	width: 650px;
 	float: left;
 	margin-right: 40px;
@@ -106,9 +112,36 @@ ul {
 	margin-bottom: 100px;
 }
 
-#about hr {
+#about hr, #contact hr {
 	margin-left: 34px;
 	margin-right: 34px;
+}
+
+#contact form {
+	margin: 20px;
+	margin-left: 34px;
+	color: grey;
+	font-size: 21px;
+}
+
+#contact p {
+	margin-top: 25px;
+}
+
+#contact textarea {
+    width: 575px;
+    height: 120px;
+    margin-top: 10px;
+    border: lightgrey solid 1px;
+}
+
+#submit {
+    width: 150px;
+    height: 50px;
+    background: teal;
+    color: white;
+    font-size: 21px;
+    border: none;
 }
 
 #bioPic {
