@@ -159,6 +159,32 @@ input {
 	font-size: 21px;
 }
 
+.leftBox {
+	border: solid teal 1px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 34px;
+	width: 270px;
+	height: 200px;
+}
+
+.rightBox {
+	border: solid teal 1px;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 34px;
+	width: 270px;
+	height: 200px;
+}
+
+#photography {
+	background-image: url('assets/images/mePic2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .connect {
 	width: 270px;
 	height: 220px;
