@@ -156,12 +156,14 @@ input {
 #about p {
 	margin: 20px;
 	color: grey;
-	font-size: 21px;
+	font-size: 20px;
+	line-height: 1.2;
 }
 
 .leftBox {
 	border: solid teal 1px;
 	float: left;
+	overflow: hidden;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: 34px;
@@ -172,6 +174,7 @@ input {
 .rightBox {
 	border: solid teal 1px;
 	float: right;
+	overflow: hidden;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-right: 34px;
@@ -179,10 +182,8 @@ input {
 	height: 200px;
 }
 
-#photography {
-	background-image: url('assets/images/mePic2.png');
-	background-repeat: no-repeat;
-	background-position: center;
+.imageBox img{
+	width: 270px;
 }
 
 .connect {
